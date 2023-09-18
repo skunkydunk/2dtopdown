@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvxhtard8hstu"]
+
+[ext_resource type="Texture2D" uid="uid://cjyyjb2078vcg" path="res://art/Sprout Lands - Sprites - Basic pack/Objects/Basic Furniture.png" id="1_ox5d4"]
+
+[node name="Carpet" type="Sprite2D"]
+z_index = -5
+texture = ExtResource("1_ox5d4")
+region_enabled = true
+region_rect = Rect2(80, 80, 32, 16)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
